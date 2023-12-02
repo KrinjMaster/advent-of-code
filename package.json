@@ -4,5 +4,9 @@
   "description": "My [Advent of code](https://adventofcode.com/) solutions",
   "scripts": {},
   "author": "",
-  "license": "ISC"
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
 }
