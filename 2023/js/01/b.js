@@ -13,12 +13,7 @@ const spelledLetters = [
   "nine",
 ];
 
-const data = fs
-  .readFileSync(
-    "/Users/krinjmaster/Desktop/advent-of-code/2023/js/01/text.txt",
-    "utf-8",
-  )
-  .split("\n");
+const data = fs.readFileSync("./text.txt", "utf-8").split("\n");
 
 const formatSpelledLetters = (string) => {
   let formatedString = string;
