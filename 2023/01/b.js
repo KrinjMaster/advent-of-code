@@ -1,4 +1,4 @@
-import * as fs from "fs";
+const fs = require("fs");
 
 let totalSum = 0;
 const spelledLetters = [
